@@ -7,57 +7,57 @@ import { motion, useInView } from "framer-motion";
 const projectsData = [
   {
     id: 1,
-    title: "React Portfolio Website",
-    description: "Project 1 description",
-    image: "/images/projects/1.png",
-    tag: ["All", "Web"],
-    gitUrl: "/",
-    previewUrl: "/",
+    title: "Edusity - University Website",
+    description: "A fully responsive React-based university website offering seamless navigation for students and faculty.",
+    image: "/images/projects/edusityss.png",
+    tag: ["All", "React"],
+    gitUrl: "https://github.com/Deataye/edusity",
+    previewUrl: "https://edusity-roan.vercel.app/",
   },
   {
     id: 2,
-    title: "Potography Portfolio Website",
-    description: "Project 2 description",
-    image: "/images/projects/2.png",
-    tag: ["All", "Web"],
-    gitUrl: "/",
-    previewUrl: "/",
+    title: "Car Renting Platform",
+    description: "A dynamic car rental platform built with Next.js, featuring categories and advanced search options.",
+    image: "/images/projects/carss.png",
+    tag: ["All", "React"],
+    gitUrl: "https://github.com/Deataye/Car-rental",
+    previewUrl: "https://car-rental-five-ivory.vercel.app/",
   },
   {
     id: 3,
-    title: "E-commerce Application",
-    description: "Project 3 description",
-    image: "/images/projects/3.png",
-    tag: ["All", "Web"],
-    gitUrl: "/",
-    previewUrl: "/",
+    title: "NFT Website",
+    description: "A multi-page NFT website built with React, focusing on interactive design and frontend development.",
+    image: "/images/projects/nftss.png",
+    tag: ["All", "React"],
+    gitUrl: "https://github.com/Deataye/NFT-website",
+    previewUrl: "https://nft-website-vsgp.vercel.app/",
   },
   {
     id: 4,
-    title: "Food Ordering Application",
-    description: "Project 4 description",
-    image: "/images/projects/4.png",
-    tag: ["All", "Mobile"],
-    gitUrl: "/",
-    previewUrl: "/",
+    title: "Olive Driving School Website",
+    description: "A professional driving school website designed for user-friendly navigation and showcasing services.",
+    image: "/images/projects/olivess.png",
+    tag: ["All", "Wordpress"],
+    gitUrl: "https://olivedrivingschool.com.au/",
+    previewUrl: "https://olivedrivingschool.com.au/",
   },
   {
     id: 5,
-    title: "React Firebase Template",
-    description: "Authentication and CRUD operations",
-    image: "/images/projects/5.png",
-    tag: ["All", "Web"],
-    gitUrl: "/",
-    previewUrl: "/",
+    title: "KKT Distributor Website",
+    description: "An e-commerce website for electronics and gadgets, focusing on intuitive design and functionality.",
+    image: "/images/projects/kktss.png",
+    tag: ["All", "Wordpress"],
+    gitUrl: "https://kktdistributor.com/",
+    previewUrl: "https://kktdistributor.com/",
   },
   {
     id: 6,
-    title: "Full-stack Roadmap",
-    description: "Project 5 description",
-    image: "/images/projects/6.png",
-    tag: ["All", "Web"],
-    gitUrl: "/",
-    previewUrl: "/",
+    title: "Muneer Timber Mart Website",
+    description: "A sleek and responsive website showcasing timber products and services with a modern design.",
+    image: "/images/projects/muneerss.png",
+    tag: ["All", "Wordpress"],
+    gitUrl: "https://muneertimbermart.shop/",
+    previewUrl: "https://muneertimbermart.shop/",
   },
 ];
 
@@ -92,13 +92,13 @@ const ProjectsSection = () => {
         />
         <ProjectTag
           onClick={handleTagChange}
-          name="Web"
-          isSelected={tag === "Web"}
+          name="React"
+          isSelected={tag === "React"}
         />
         <ProjectTag
           onClick={handleTagChange}
-          name="Mobile"
-          isSelected={tag === "Mobile"}
+          name="Wordpress"
+          isSelected={tag === "Wordpress"}
         />
       </div>
       <ul ref={ref} className="grid md:grid-cols-3 gap-8 md:gap-12">
