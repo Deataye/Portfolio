@@ -59,6 +59,15 @@ const projectsData = [
     gitUrl: "https://muneertimbermart.shop/",
     previewUrl: "https://muneertimbermart.shop/",
   },
+  {
+    id: 7,
+    title: "Zeentac",
+    description: "A sleek and responsive website showcasing timber products and services with a modern design.",
+    image: "/images/projects/zeentacs.png",
+    tag: ["All", "Wordpress"],
+    gitUrl: "https://zeentec.com/",
+    previewUrl: "https://zeentec.com/",
+  },
 ];
 
 const ProjectsSection = () => {
