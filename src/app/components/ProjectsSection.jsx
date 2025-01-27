@@ -30,7 +30,7 @@ const projectsData = [
     image: "/images/projects/nftss.png",
     tag: ["All", "React"],
     gitUrl: "https://github.com/Deataye/NFT-website",
-    previewUrl: "https://nft-website-vsgp.vercel.app/",
+    previewUrl: "https://nft-website-lyart-three.vercel.app/",
   },
   {
     id: 4,
