@@ -89,7 +89,7 @@ const projectsData = [
   {
     id: 10,
     title: "Zeentac",
-    description: "A sleek and responsive website showcasing timber products and services with a modern design.",
+    description: "Specializing in chat, email, and phone support to enhance customer experience, satisfaction, and retention.",
     image: "/images/projects/zeentacs.png",
     tag: ["All", "Wordpress"],
     gitUrl: "https://zeentec.com/",
